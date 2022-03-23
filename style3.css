@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    background-color: #020412;
+    scrollbar-color: white;
+}
+.content{
+    width: 500px;
+    height: 200px;;
+    background-color:yellow;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;
+    position: absolute;
+    top:60px;
+    right:300px;
+    border-radius: 10px;
+}
+.close a{
+    position: relative;
+    top: 10px;
+}
+.search{
+   background-color: yellow;
+    position: relative;
+    top: 30px;
+}
+.search label {
+    background-color: yellow;
+    color: #020412;
+    font-size: 30px;
+}
+.search input{
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px; 
+}
+.search button{
+    background-color: rgb(8, 8, 8);
+    color: yellow;
+    font-size: 20px;
+    width: 200px;
+    height:30px;
+    border-radius: 5px;
+    border-color: #020412;
+}
+.head{
+    border-radius:10px ;
+    position: relative;
+    top:10px;
+}
+
+.head marquee{
+    color: yellow;
+    font-size: 30px;
+    
+    position: relative;
+    right:0px;
+    width: 100;
+    border-radius: 10px;
+    background-color: #020412;
+}
+.result{
+    height: 800px;
+    width: 900px;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    background-color:yellow;
+}
+.result h1{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left:120px;
+    background-color: transparent;
+}
+.details{
+    background-color:rgb(14, 12, 12);
+    height: 500px;
+    width: 450px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+table{
+    color: white;
+    width: 300px;
+}
+.marks{
+    background-color:white;
+    height: 500px;
+    width: 420px;
+    position: absolute;
+    top: 20px;
+    left: 470px;
+}
+

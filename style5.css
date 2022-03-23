@@ -1,0 +1,51 @@
+.search{
+    background-color: rgb(7, 7, 7);
+     position: relative;
+     top: 30px;
+     height: 190;
+ }
+ .search label {
+     background-color: black;
+     color: white;
+     height: 10px;
+     position: relative;
+     top:0;
+     height: 10px;
+     left: 10px;
+     font-size: 30px;
+ }
+ .search label:hover{
+     color: yellow;
+ }
+ .search input{
+     margin-top: 10px;
+     font-size: 30px;    
+     position: relative;
+     left: -10;
+     top: 20;
+     color: black;
+     background-color: yellow;
+     border-radius: 10px; 
+ }
+ .search input:hover{
+     background-color: white;
+ }
+ .search button{
+     background-color: black;
+     color: white;
+     font-size: 25px;
+     position: relative;
+     left: 350;
+     top: -70px;
+     width: 100px;
+     height:50px;
+     border-radius: 5px;
+     border-color: yellow;
+ }
+ .search button:hover{
+     background-color: yellow;
+     color: black;
+     border-color: black;
+
+
+ }

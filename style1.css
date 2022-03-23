@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Century Gothic;
+}
+/* Style for AddResult page*/
+.add{
+    width: 100%;
+    height: 200vh;
+    background-color: yellow;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;   
+    
+}
+.update{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;   
+    
+}
+.view{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    color: #fff;
+    padding: 0 8.5%;
+    position: relative;   
+    
+}
+
+nav{
+    position: relative;
+    bottom:  40px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0 10px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    padding-right: 40px;
+    position: relative;
+    bottom: -10px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 40px;
+  
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 25px;
+    line-height: 25px;
+    display: block;
+    padding-bottom: 5px;
+    font-family: Century Gothic;
+}
+nav ul li a:hover{
+    color:aqua;
+    display:inline-block ;
+    background-color: rgb(10, 10, 10);
+    line-height: 10px;
+}
+.l{
+    font-size: 20px;
+}
+
+.addform{
+    background-color: rgb(7, 7, 7);
+    height: 900px;
+    width: 900px;
+}
+.details{
+background-color:rgb(2, 2, 2);
+width: 450px;
+height: 900px;
+position: absolute;
+
+}
+ul{
+    color: #fff;
+}
+.marks{
+    background-color: black;
+    border-top-color:black ;
+    width: 450px;
+    height: 800px;
+    position: absolute;
+    right: 45px;
+}
+.mar{
+    background-color: black;
+    border-top-color:black ;
+    width: 450px;
+    height: 800px;
+    position: absolute;
+    right: 45px;
+}
+p{
+position: relative;
+left:100px;
+position: absolute;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+color: aqua;
+}
+
+input {
+    margin: 40px 25px;
+    width: 300px;
+    display: block;
+    border: none;
+    padding: 10px 0;
+    border-bottom: solid 1px #f1f108;
+    -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #f6fa00 4%);
+    background: linear-gradient(to bottom, rgba(250, 247, 247, 0) 96%, yellow 4%);
+    background-position: -200px 0;
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    font-size: 25px;
+    color:rgb(255, 255, 5);
+  }
+  ::placeholder{
+      font-size: 20px;
+      color:white;
+  }
+  input:focus, input:valid {
+   box-shadow: none;
+   outline: none;
+   background-position: 0 0;
+  }
+  
+  
+  input::-webkit-input-placeholder {
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+   color: yellow;
+   font-size: 30px;
+   -webkit-transform: translateY(-8px);
+   transform: translateY(-8px);
+   visibility: visible !important;
+   width:300px;
+   content: "Enter marks";
+  }
+  ::placeholder:hover{
+      content: "Enter";
+  }
+.info{
+    position: relative;
+    left:20px;
+    background-color: rgb(5, 5, 5);
+    align-items: left;
+}
+
+.info label{
+ font-size: 30px;
+ position: relative;
+ left: 10;
+}
+.info1{
+    position: relative;
+    left:20px;
+    background-color: rgb(5, 5, 5);
+    align-items: left;
+}  
+
+.info hr{
+    width:300px;
+    position: relative;
+    left:20px;
+    color: yellow;
+    border-style: solid;
+}
+input[type="date"]{
+background-color: rgb(253, 252, 252);
+color: black;
+}
+
+.mar{
+ background-color: rgb(3, 3, 3);
+ position: absolute;
+ top:130px;
+ width:400px;
+ height: 400px;
+ right:100px;   
+}
+.btn{  
+    position: relative;
+    top:640px;
+    left :300px;
+}
+.btn button{
+   font-size: 40px;
+   position: relative;
+   right: -80px;
+   width: 150px;
+   color:yellow;
+   display:inline-block ;
+   background-color: rgb(10, 10, 10);
+   border:2px solid #fff724;
+   padding: 10px 5px;
+   border-radius: 6px;
+   line-height: 20px;
+   font-size: 25px;
+   height: 50px;
+    
+}
+button:hover{
+    font-size: 30px;
+
+}
+.m{
+    background-color:white;
+}
+.search{
+    background-color: yellow;
+     position: relative;
+     top: 30px;
+ }
+ .search label {
+     background-color: yellow;
+     color: #020412;
+     font-size: 30px;
+ }
+ .search input{
+     margin-top: 10px;
+     font-size: 30px;
+     background-color: white;
+     border-radius: 10px; 
+ }
+ .search button{
+     background-color: rgb(8, 8, 8);
+     color: yellow;
+     font-size: 20px;
+     width: 200px;
+     height:30px;
+     border-radius: 5px;
+     border-color: #020412;
+ }
+ 
